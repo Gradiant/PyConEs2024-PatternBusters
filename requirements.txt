@@ -1,5 +1,5 @@
 pandas
-numpy
+numpy<2
 scikit-learn
 ydata-profiling
 umap-learn
@@ -9,3 +9,7 @@ matplotlib
 plotly
 seaborn
 kaleido
+hdbscan
+stumpy
+scipy
+PyQt6
