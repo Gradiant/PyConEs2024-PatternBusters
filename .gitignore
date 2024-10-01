@@ -162,3 +162,4 @@ cython_debug/
 #.idea/
 
 data/tabular-data/download.py
+procesado_iot/*
