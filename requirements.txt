@@ -9,7 +9,6 @@ matplotlib
 plotly
 seaborn
 kaleido
-hdbscan
 stumpy
 scipy
 PyQt6
