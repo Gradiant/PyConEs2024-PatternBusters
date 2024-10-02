@@ -42,7 +42,14 @@ Asegúrate de tener instalado `pyenv` y `virtualenv`. Si no los tienes, puedes s
    pyenv local 3.9.19
    ```
 
-3. **Crear un entorno virtual y activarlo:**
+   Si existen problemas con la versión de Python podéis probar:
+   ```
+   pyenv virtualenv 3.9.19 venv
+   virtualenv -p $(pyenv which python) venv
+   ```
+   
+
+4. **Crear un entorno virtual y activarlo:**
 
    Crea un entorno virtual utilizando `virtualenv`:
 
@@ -56,7 +63,7 @@ Asegúrate de tener instalado `pyenv` y `virtualenv`. Si no los tienes, puedes s
    source venv/bin/activate
    ```
 
-4. **Instalar las dependencias del proyecto:**
+5. **Instalar las dependencias del proyecto:**
 
    Asegúrate de tener un archivo `requirements.txt` en tu directorio del proyecto y ejecuta el siguiente comando para instalar las dependencias:
 
@@ -64,7 +71,7 @@ Asegúrate de tener instalado `pyenv` y `virtualenv`. Si no los tienes, puedes s
    pip install -r requirements.txt
    ```
 
-5. **Abrir Jupyter Lab:**
+6. **Abrir Jupyter Lab:**
 
    Una vez que las dependencias estén instaladas, puedes abrir Jupyter Lab ejecutando:
 
